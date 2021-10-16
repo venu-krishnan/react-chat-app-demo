@@ -1,0 +1,51 @@
+
+.chat-app {
+
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-app-container{
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.chat-app-header{
+  display: flex;
+  flex-direction: row;
+  border-top: 1px lightgray solid;
+  border-left: 1px lightgray solid;
+  border-right: 1px lightgray solid;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.chat-app-main-panel{
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+
+}
+
+.chat-app-contact-list{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  border-left: 1px lightgray solid;
+  border-top: 1px lightgray solid;
+  border-bottom: 1px lightgray solid;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+
+.chat-app-chat-panel{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  border: 1px lightgray solid;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}

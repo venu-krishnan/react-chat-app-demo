@@ -1,0 +1,50 @@
+
+.contact-tab {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-image{
+    display: flex;
+}
+.contact-image img {
+    border-radius: 50%;
+}
+.contact-name{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+}
+.contact-name-unread {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    color: #866bdd;
+}
+.contact-last-msg{
+    padding-top: 10px;
+    display: flex;
+    font-size: 12px;
+    font-style: normal;
+
+}
+
+.contact-tab-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.contact-tab :hover {
+    background: whitesmoke;
+    cursor: pointer;
+ }
+
+
+.contact-tab-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
