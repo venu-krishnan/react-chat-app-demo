@@ -1,20 +1,16 @@
-# Cion Studio Interview Task
-
-
 ## Task Details
 
-Create an app based on the design in the image below. You do not have to create a working chat app, we are just testing your ability to create a UI from a design. 
+Tech used: React, Javascript, Vanilla CSS, faker.js
 
-* Use Redux toolkit to store state data and create reducers for any necessary updates. You can build on the slice in /src/redux/slices/chatSlice.js. Feel free to modify the slice any way you like, or create new slices if you need to.
+Demo chat app with below client-side working features
 
-* Create the styling using only vanilla CSS, do not use Bootstrap, Material UI, or similar frameworks. 
-
-* Share your finished product with us on GitHub, and set up a live demo and share the URL with us. 
-
-* Use your creativity for finishing touches like hover and active states. 
-
-* (optional) You can use the library faker.js to generate mock data for names, messages, etc. (https://github.com/marak/Faker.js/)
-
+1) Search contact list by name: you can type a contact name in search and can see contact list filters by search term (case insensitive)
+2) click on a contact from a list(left side) and chat with contact (use Enter key or click Send button to send messages)
+3) when you click on other contact, last contact shows the last entered message (in left side below contact names)
+4) active state: all unread contact's messages are shown in purple (upon read, Contact name changes to Black font color)
+5) mouse hover on contact list highlights contact with pointer cursor
+6) used faker.js for the contact names and their last messages
+7) used React useContext to store the state that is shared with sub components
 
 ![Design](./ui-design.png "UI Design")
 
@@ -27,6 +23,6 @@ Create an app based on the design in the image below. You do not have to create 
 ## Applications Stack configurations and informations
 
 ### CLIENT
-- React + Redux Toolkit
+- React
 - Active on PORT 3000
 - [localhost:3000](http://localhost:3000)
